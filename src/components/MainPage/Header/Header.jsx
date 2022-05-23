@@ -1,4 +1,5 @@
 import React from 'react'
+
 import './Header.scss'
 
 export const Header = () => {
@@ -15,7 +16,6 @@ export const Header = () => {
                         <button onClick={() => window.open('https://dikidi.net/448067', '_blank')} className='header__button'>Записаться онлайн</button>
                     </div>
                 </nav>
-
             </div>
         </div>
     )

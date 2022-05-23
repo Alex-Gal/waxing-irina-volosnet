@@ -2,7 +2,6 @@
     height: 80px;
     background: #FEF3FF;
     font-family: 'Mulish', sans-serif;
-    // border: 1px solid red;
 
     .header__nav {
         display: flex;
@@ -11,13 +10,10 @@
         align-items: center;
         padding-top: 25px;
 
-        // border: 1px solid green;
-
         .nav__menu {
             margin-left: 18px;
             display: flex;
             justify-content: space-between;
-            // border: 1px solid yellow;
 
             .menu__link {
                 text-decoration: none;
@@ -32,24 +28,21 @@
 
     .header__button {
         position: absolute;
-        // width: 500px;
-        // height: 70px;
         width: 626px;
         height: 130px;
-        right: 0;
+        right: 0px;
         top: 0px;
         border: none;
+        z-index: 10;
 
         background: #D34A2E;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
         font-family: 'Mulish';
-        font-style: normal;
         font-weight: 500;
         font-size: 40px;
         line-height: 50px;
         text-transform: uppercase;
-
         color: #FFFFFF;
     }
 }
