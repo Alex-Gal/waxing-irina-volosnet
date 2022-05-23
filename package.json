@@ -1,5 +1,6 @@
 {
   "name": "waxing-irina-volosnet",
+  "homepage": "https://alex-gal.github.io/waxing-irina-volosnet/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,9 +13,12 @@
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
     "@testing-library/user-event": "^14.2.0",
+    "gh-pages": "^4.0.0",
     "node-sass": "^7.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

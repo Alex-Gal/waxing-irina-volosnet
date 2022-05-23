@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.ecccc7dc.css",
-    "main.js": "/static/js/main.f444aaf2.js",
-    "static/js/787.84cc3fdc.chunk.js": "/static/js/787.84cc3fdc.chunk.js",
-    "static/media/main_face.jpg": "/static/media/main_face.9d8d45fb27bb95b425e8.jpg",
-    "static/media/scotchfontbylyajka.ttf": "/static/media/scotchfontbylyajka.809c2ecc9632cc00b90e.ttf",
-    "index.html": "/index.html",
-    "main.ecccc7dc.css.map": "/static/css/main.ecccc7dc.css.map",
-    "main.f444aaf2.js.map": "/static/js/main.f444aaf2.js.map",
-    "787.84cc3fdc.chunk.js.map": "/static/js/787.84cc3fdc.chunk.js.map"
+    "main.css": "/waxing-irina-volosnet/static/css/main.87089117.css",
+    "main.js": "/waxing-irina-volosnet/static/js/main.1f851400.js",
+    "static/js/787.84cc3fdc.chunk.js": "/waxing-irina-volosnet/static/js/787.84cc3fdc.chunk.js",
+    "static/media/main_face.jpg": "/waxing-irina-volosnet/static/media/main_face.9d8d45fb27bb95b425e8.jpg",
+    "static/media/scotchfontbylyajka.ttf": "/waxing-irina-volosnet/static/media/scotchfontbylyajka.809c2ecc9632cc00b90e.ttf",
+    "index.html": "/waxing-irina-volosnet/index.html",
+    "main.87089117.css.map": "/waxing-irina-volosnet/static/css/main.87089117.css.map",
+    "main.1f851400.js.map": "/waxing-irina-volosnet/static/js/main.1f851400.js.map",
+    "787.84cc3fdc.chunk.js.map": "/waxing-irina-volosnet/static/js/787.84cc3fdc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ecccc7dc.css",
-    "static/js/main.f444aaf2.js"
+    "static/css/main.87089117.css",
+    "static/js/main.1f851400.js"
   ]
 }
