@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ecccc7dc.css",
+    "main.js": "/static/js/main.f444aaf2.js",
+    "static/js/787.84cc3fdc.chunk.js": "/static/js/787.84cc3fdc.chunk.js",
+    "static/media/main_face.jpg": "/static/media/main_face.9d8d45fb27bb95b425e8.jpg",
+    "static/media/scotchfontbylyajka.ttf": "/static/media/scotchfontbylyajka.809c2ecc9632cc00b90e.ttf",
+    "index.html": "/index.html",
+    "main.ecccc7dc.css.map": "/static/css/main.ecccc7dc.css.map",
+    "main.f444aaf2.js.map": "/static/js/main.f444aaf2.js.map",
+    "787.84cc3fdc.chunk.js.map": "/static/js/787.84cc3fdc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ecccc7dc.css",
+    "static/js/main.f444aaf2.js"
+  ]
+}
