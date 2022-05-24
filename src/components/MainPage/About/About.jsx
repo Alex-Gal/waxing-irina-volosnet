@@ -1,9 +1,9 @@
 import React from 'react'
 import about from '../../../images/about_photo.jpg'
 
-import './AboutBlock.scss'
+import './About.scss'
 
-export const AboutBlock = () => {
+export const About = () => {
     return (
         <div className='about-block'>
             <div className="container">
