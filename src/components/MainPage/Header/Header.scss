@@ -1,5 +1,5 @@
 .header {
-    height: 80px;
+    height: 50px;
     background: #FEF3FF;
     font-family: 'Mulish', sans-serif;
 
@@ -8,7 +8,7 @@
         flex-flow: row wrap;
         justify-content: space-between;
         align-items: center;
-        padding-top: 25px;
+        padding-top: 12px;
 
         .nav__menu {
             margin-left: 18px;
@@ -17,7 +17,7 @@
 
             .menu__link {
                 text-decoration: none;
-                font-size: 30px;
+                font-size: 22px;
                 font-weight: 500;
                 margin-right: 50px;
                 color: #464646;
@@ -29,7 +29,7 @@
     .header__button {
         position: absolute;
         width: 400px;
-        height: 100px;
+        height: 70px;
         right: 0px;
         top: 0px;
         border: none;
@@ -40,7 +40,7 @@
 
         font-family: 'Mulish';
         font-weight: 500;
-        font-size: 28px;
+        font-size: 20px;
         line-height: 50px;
         text-transform: uppercase;
         color: #FFFFFF;

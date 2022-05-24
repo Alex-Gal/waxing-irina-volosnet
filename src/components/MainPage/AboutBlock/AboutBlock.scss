@@ -1,0 +1,61 @@
+@mixin text {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 38px;
+    color: #464646;
+}
+
+.about-block {
+    position: relative;
+    background: #FEF3FF;
+
+    .about-block__title {
+        padding: 38px 0;
+        text-align: center;
+        font-size: 30px;
+        @include text;
+    }
+
+    .about-block__block {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        height: 693px;
+
+        .about-block__text {
+            width: 50%;
+        }
+
+        h3 {
+            padding: 70px 0;
+            font-family: 'Scotch';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 60px;
+            line-height: 69px;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            text-align: center;
+
+            color: #392F85;
+        }
+
+        p {
+            font-size: 30px;
+            padding-bottom: 20px;
+            @include text;
+        }
+
+        .about-block__image {
+            position: absolute;
+            right: 0px;
+            width: 50%;
+
+            img {
+                position: absolute;
+                right: 0px;
+            }
+        }
+    }
+}
