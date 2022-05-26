@@ -17,10 +17,6 @@
     .services-block__list {
         margin: 0 85px;
 
-        // li {
-        //     border-bottom: 2px solid #FEF3FF;
-        // }
-
         .list__menu-block {
             position: relative;
 
@@ -28,6 +24,7 @@
                 display: flex;
                 flex-flow: column nowrap;
                 justify-content: space-between;
+                transition: all 0.8s ease-out;
 
                 .list__menu-btn {
                     display: flex;
@@ -41,6 +38,8 @@
                     line-height: 80px;
                     text-transform: uppercase;
                     background: transparent;
+                    border: none;
+                    color: #FEF3FF;
                 }
 
                 .sub-list__menu {
