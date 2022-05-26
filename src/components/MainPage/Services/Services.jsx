@@ -1,23 +1,15 @@
 import React, { useState } from 'react'
+import { CSSTransition } from 'react-transition-group'
 import arrow from '../../../icons/arrow.svg'
 
 
 import './Services.scss'
 
 export const Services = () => {
-    const [dropdownZone, setDropdownZone] = useState(false);
-    const [dropdownComplex, setDropdownComplex] = useState(false);
-    const [dropdownPeeling, setDropdownPeeling] = useState(false);
+    const [showZone, setShowZone] = useState(false);
+    // const [dropdownComplex, setDropdownComplex] = useState(false);
+    // const [dropdownPeeling, setDropdownPeeling] = useState(false);
 
-    // const buttonHandlerZone = () => {
-    //     setDropdownZone(!dropdownZone)
-    // }
-    const buttonHandlerComplex = () => {
-        setDropdownComplex(!dropdownComplex)
-    }
-    const buttonHandlerPeeling = () => {
-        setDropdownPeeling(!dropdownPeeling)
-    }
 
     return (
         <div className='services-block'>
@@ -25,8 +17,43 @@ export const Services = () => {
                 <h2 className='services-block__title'>Как я подарю тебе уверенность?</h2>
 
                 <div className='services-block__list'>
+                    <ul className='list__menu-block'>
+                        <li className='list__menu'>
+                            <button onClick={() => setShowZone(!showZone)} className="list__menu-btn" style={{ borderBottom: !showZone ? '3px solid #FEF3FF' : 'none' }} >
+                                <p className='list__item'>Депиляция зон</p>
+                                <span className="list__arrow"><img src={arrow} alt="arrow" /></span>
+                            </button>
+
+                            <CSSTransition
+                                in={showZone}
+                                timeout={5000}
+                                classNames='sub-list__menu'
+                                unmountOnExit>
+
+                                <ul className='sub-list__menu'>
+                                    <li>Бикини классическое 20 руб</li>
+                                    <li className='sub-list__item'>Бикини классическое 20 руб</li>
+                                    <li className='sub-list__item'>Бикини глубокое 27 руб</li>
+                                    <li className='sub-list__item'>Бикини бразильское 32 руб</li>
+                                    <li className='sub-list__item'>Ноги полностью 30 руб</li>
+                                    <li className='sub-list__item'>Голень/бедро 20 руб</li>
+                                    <li className='sub-list__item'>Руки полностью 20 руб</li>
+                                    <li className='sub-list__item'>Руки до локтя 15 руб</li>
+                                    <li className='sub-list__item'>Подмышки 10 руб</li>
+                                    <li className='sub-list__item'>Усики/1 зона на лице 7 руб</li>
+                                    <li className='sub-list__item'>Полоска на животе 7 руб</li>
+                                    <li className='sub-list__item'>Ягодицы 10 руб</li>
+                                    <li className='sub-list__item'>Живот 10 руб</li>
+                                    <li className='sub-list__item'>Обезболивание зоны бикини 5 руб</li>
+                                </ul>
+                            </CSSTransition>
+                        </li>
+                    </ul>
+                </div>
 
 
+                {/* 
+                <div className='services-block__list'>    
                     <ul className='list__menu-block'>
                         <li className='list__menu'>
                             <button onClick={() => setDropdownZone(!dropdownZone)} className="list__menu-btn" style={{ borderBottom: !dropdownZone ? '3px solid #FEF3FF' : 'none' }} >
@@ -79,14 +106,14 @@ export const Services = () => {
                             </ul>
                         </li>
                     </ul>
-                </div>
+                </div> */}
 
 
 
-                <button className='services-block__button'>
+                {/* <button className='services-block__button'>
                     <p>Стесняешься?</p>
                     <p>просто постмотри, какую красоту я дарю клиенткам!</p>
-                </button>
+                </button> */}
             </div>
         </div>
     )
