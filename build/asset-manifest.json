@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/waxing-irina-volosnet/static/css/main.925ae31f.css",
-    "main.js": "/waxing-irina-volosnet/static/js/main.80206c9f.js",
+    "main.css": "/waxing-irina-volosnet/static/css/main.b60d57b7.css",
+    "main.js": "/waxing-irina-volosnet/static/js/main.bbc5bdcd.js",
     "static/js/787.84cc3fdc.chunk.js": "/waxing-irina-volosnet/static/js/787.84cc3fdc.chunk.js",
     "static/media/about_photo.jpg": "/waxing-irina-volosnet/static/media/about_photo.fde1a6290d329c273cdd.jpg",
     "static/media/main_face.jpg": "/waxing-irina-volosnet/static/media/main_face.e86da59df2cd9464edcf.jpg",
+    "static/media/work_1.png": "/waxing-irina-volosnet/static/media/work_1.3058791618d47ff5906b.png",
     "static/media/scotchfontbylyajka.ttf": "/waxing-irina-volosnet/static/media/scotchfontbylyajka.809c2ecc9632cc00b90e.ttf",
     "index.html": "/waxing-irina-volosnet/index.html",
     "static/media/arrow.svg": "/waxing-irina-volosnet/static/media/arrow.b5352f816083f3a7b0b8769a0b12921e.svg",
-    "main.925ae31f.css.map": "/waxing-irina-volosnet/static/css/main.925ae31f.css.map",
-    "main.80206c9f.js.map": "/waxing-irina-volosnet/static/js/main.80206c9f.js.map",
+    "main.b60d57b7.css.map": "/waxing-irina-volosnet/static/css/main.b60d57b7.css.map",
+    "main.bbc5bdcd.js.map": "/waxing-irina-volosnet/static/js/main.bbc5bdcd.js.map",
     "787.84cc3fdc.chunk.js.map": "/waxing-irina-volosnet/static/js/787.84cc3fdc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.925ae31f.css",
-    "static/js/main.80206c9f.js"
+    "static/css/main.b60d57b7.css",
+    "static/js/main.bbc5bdcd.js"
   ]
 }
