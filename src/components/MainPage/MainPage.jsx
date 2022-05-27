@@ -4,6 +4,7 @@ import { Footer } from './Footer/Footer'
 import { MainBlock } from './MainBlock/MainBlock'
 import { About } from './About/About'
 import { Services } from './Services/Services'
+import { Works } from './Works/Works'
 
 import './MainPage.scss'
 
@@ -15,6 +16,7 @@ export const MainPage = () => {
                 <MainBlock />
                 <About />
                 <Services />
+                <Works />
             </main>
             <Footer />
         </>
