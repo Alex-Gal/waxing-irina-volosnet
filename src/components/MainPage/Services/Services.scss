@@ -42,6 +42,34 @@
                     color: #FEF3FF;
                 }
 
+                .sub-list__menu {
+                    font-family: 'Mulish';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 23px;
+                    line-height: 25px;
+                    color: #5F5F5F;
+                    background: #FEF3FF;
+                    padding: 20px 40px;
+                    border-radius: 20px;
+
+                    hr {
+                        height: 1px;
+                        background: #5F5F5F;
+                        border: none;
+                    }
+                }
+
+                .sub-list__item {
+                    display: flex;
+                    justify-content: space-between;
+                    flex-flow: row nowrap;
+
+                    span {
+                        font-weight: 700;
+                    }
+                }
+
                 .sub-list__menu-enter {
                     opacity: 0;
                     transform: scale(0.9);
@@ -67,5 +95,40 @@
         }
     }
 
+    .services-block__shy {
+        display: inline-block;
+        padding: 100px 0;
 
+        display: flex;
+        justify-content: center;
+
+        .services-block__shy-block {
+            background: #D34A2E;
+            padding: 24px 30px;
+
+            .shy-block__shy-title {
+                font-family: 'Scotch';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 60px;
+                line-height: 69px;
+                text-align: center;
+                letter-spacing: 0.05em;
+                text-transform: uppercase;
+
+                color: #FEF3FF;
+            }
+
+            .shy-block__shy-text {
+                font-family: 'Mulish';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 30px;
+                line-height: 38px;
+                text-align: center;
+
+                color: #FEF3FF;
+            }
+        }
+    }
 }

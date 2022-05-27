@@ -7,8 +7,8 @@ import './Services.scss'
 
 export const Services = () => {
     const [showZone, setShowZone] = useState(false);
-    // const [dropdownComplex, setDropdownComplex] = useState(false);
-    // const [dropdownPeeling, setDropdownPeeling] = useState(false);
+    const [showComplex, setShowComplex] = useState(false);
+    const [showPeeling, setShowPeeling] = useState(false);
 
 
     return (
@@ -26,94 +26,79 @@ export const Services = () => {
 
                             <CSSTransition
                                 in={showZone}
-                                timeout={5000}
+                                timeout={300}
                                 classNames='sub-list__menu'
                                 unmountOnExit>
 
                                 <ul className='sub-list__menu'>
-                                    <li>Бикини классическое 20 руб</li>
-                                    <li className='sub-list__item'>Бикини классическое 20 руб</li>
-                                    <li className='sub-list__item'>Бикини глубокое 27 руб</li>
-                                    <li className='sub-list__item'>Бикини бразильское 32 руб</li>
-                                    <li className='sub-list__item'>Ноги полностью 30 руб</li>
-                                    <li className='sub-list__item'>Голень/бедро 20 руб</li>
-                                    <li className='sub-list__item'>Руки полностью 20 руб</li>
-                                    <li className='sub-list__item'>Руки до локтя 15 руб</li>
-                                    <li className='sub-list__item'>Подмышки 10 руб</li>
-                                    <li className='sub-list__item'>Усики/1 зона на лице 7 руб</li>
-                                    <li className='sub-list__item'>Полоска на животе 7 руб</li>
-                                    <li className='sub-list__item'>Ягодицы 10 руб</li>
-                                    <li className='sub-list__item'>Живот 10 руб</li>
-                                    <li className='sub-list__item'>Обезболивание зоны бикини 5 руб</li>
+                                    <li className='sub-list__item'><p>Бикини классическое</p><span>20 BYN</span></li><hr />
+                                    <li className='sub-list__item'><p>Бикини глубокое</p><span>27 BYN</span></li><hr />
+                                    <li className='sub-list__item'><p>Бикини бразильское</p><span>32 BYN</span></li><hr />
+                                    <li className='sub-list__item'><p>Ноги полностью</p><span>30 BYN</span></li><hr />
+                                    <li className='sub-list__item'><p>Голень/бедро</p><span>20 BYN</span></li><hr />
+                                    <li className='sub-list__item'><p>Руки полностью</p><span>20 BYN</span></li><hr />
+                                    <li className='sub-list__item'><p>Руки до локтя</p><span>15 BYN</span></li><hr />
+                                    <li className='sub-list__item'><p>Подмышки</p><span>10 BYN</span></li><hr />
+                                    <li className='sub-list__item'><p>Усики/1 зона на лице</p><span>7 BYN</span></li><hr />
+                                    <li className='sub-list__item'><p>Полоска на животе</p><span>7 BYN</span></li><hr />
+                                    <li className='sub-list__item'><p>Ягодицы</p><span>10 BYN</span></li><hr />
+                                    <li className='sub-list__item'><p>Живот</p><span>10 BYN</span></li><hr />
+                                    <li className='sub-list__item'><p>Обезболивание зоны бикини</p><span>5 BYN</span></li><hr />
+                                </ul>
+                            </CSSTransition>
+                        </li>
+
+                        <li className='list__menu'>
+                            <button onClick={() => setShowComplex(!showComplex)} className="list__menu-btn" style={{ borderBottom: !showComplex ? '3px solid #FEF3FF' : 'none' }} >
+                                <p className='list__item'>Комплексы</p>
+                                <span className="list__arrow"><img src={arrow} alt="arrow" /></span>
+                            </button>
+
+                            <CSSTransition
+                                in={showComplex}
+                                timeout={300}
+                                classNames='sub-list__menu'
+                                unmountOnExit>
+
+                                <ul className='sub-list__menu'>
+                                    <li className='sub-list__item'><p>Подмышки + ноги полностью + бикини классическое</p><span>55 BYN</span></li><hr />
+                                    <li className='sub-list__item'><p>Подмышки + ноги полностью + бикини глубокое</p><span>60 BYN</span></li><hr />
+                                    <li className='sub-list__item'><p>Подмышки + голень/бедро + бикини глубокое</p><span>50 BYN</span></li><hr />
+                                    <li className='sub-list__item'><p>Подмышки + руки полностью + бикини глубокое</p><span>50 BYN</span></li><hr />
+                                    <li className='sub-list__item'><p>Подмышки + руки полностью + ноги полностью</p><span>55 BYN</span></li><hr />
+                                    <li className='sub-list__item'><p>Подмышки + руки полностью + голень/бедро</p><span>45 BYN</span></li><hr />
+                                    <li className='sub-list__item'><p>Подмышки + руки полностью + ноги полностью + бикини глубокое</p><span>75 BYN</span></li><hr />
+                                    <li className='sub-list__item'><p>Ноги полностью + бикини глубокое</p><span>55 BYN</span></li><hr />
+                                    <li className='sub-list__item'><p>Голень/бедро + бикини глубокое</p><span>45 BYN</span></li><hr />
+                                </ul>
+                            </CSSTransition>
+                        </li>
+
+                        <li className='list__menu'>
+                            <button onClick={() => setShowPeeling(!showPeeling)} className="list__menu-btn" style={{ borderBottom: !showPeeling ? '3px solid #FEF3FF' : 'none' }} >
+                                <p className='list__item'>Пилинг</p>
+                                <span className="list__arrow"><img src={arrow} alt="arrow" /></span>
+                            </button>
+
+                            <CSSTransition
+                                in={showPeeling}
+                                timeout={300}
+                                classNames='sub-list__menu'
+                                unmountOnExit>
+                                <ul className='sub-list__menu'>
+                                    <li className='sub-list__item'><p>Химический пилинг бикини + противовоспалительная маска в подарок</p><span>15 BYN</span></li><hr />
                                 </ul>
                             </CSSTransition>
                         </li>
                     </ul>
                 </div>
 
-
-                {/* 
-                <div className='services-block__list'>    
-                    <ul className='list__menu-block'>
-                        <li className='list__menu'>
-                            <button onClick={() => setDropdownZone(!dropdownZone)} className="list__menu-btn" style={{ borderBottom: !dropdownZone ? '3px solid #FEF3FF' : 'none' }} >
-                                <p className='list__item'>Депиляция зон</p>
-                                <span className="list__arrow"><img src={arrow} alt="arrow" /></span>
-                            </button>
-                            <ul className='sub-list__menu' style={{ display: dropdownZone ? 'block' : 'none' }}>
-                                <li className='sub-list__item'>Бикини классическое 20 руб</li>
-                                <li className='sub-list__item'>Бикини глубокое 27 руб</li>
-                                <li className='sub-list__item'>Бикини бразильское 32 руб</li>
-                                <li className='sub-list__item'>Ноги полностью 30 руб</li>
-                                <li className='sub-list__item'>Голень/бедро 20 руб</li>
-                                <li className='sub-list__item'>Руки полностью 20 руб</li>
-                                <li className='sub-list__item'>Руки до локтя 15 руб</li>
-                                <li className='sub-list__item'>Подмышки 10 руб</li>
-                                <li className='sub-list__item'>Усики/1 зона на лице 7 руб</li>
-                                <li className='sub-list__item'>Полоска на животе 7 руб</li>
-                                <li className='sub-list__item'>Ягодицы 10 руб</li>
-                                <li className='sub-list__item'>Живот 10 руб</li>
-                                <li className='sub-list__item'>Обезболивание зоны бикини 5 руб</li>
-                            </ul>
-                        </li>
-
-
-                        <li className='list__menu'>
-                            <button onClick={buttonHandlerComplex} className="list__menu-btn" style={{ borderBottom: !dropdownComplex ? '3px solid #FEF3FF' : 'none' }} >
-                                <p className='list__item'>Комплексы</p>
-                                <span className="list__arrow"><img src={arrow} alt="arrow" /></span>
-                            </button>
-                            <ul className='sub-list__menu' style={{ display: dropdownComplex ? 'block' : 'none' }}>
-                                <li className='sub-list__item'>Подмышки + ноги полностью + бикини классическое 55 руб (60 руб)</li>
-                                <li className='sub-list__item'>Подмышки + ноги полностью + бикини глубокое 60 руб (67 руб)</li>
-                                <li className='sub-list__item'>Подмышки + голень/бедро + бикини глубокое 50 руб (57 руб)</li>
-                                <li className='sub-list__item'>Подмышки + руки полностью + бикини глубокое 50 руб (57 руб)</li>
-                                <li className='sub-list__item'>Подмышки + руки полностью + ноги полностью 55 руб (60 руб)</li>
-                                <li className='sub-list__item'>Подмышки + руки полностью + голень/бедро 45 руб (50 руб)</li>
-                                <li className='sub-list__item'>Подмышки + руки полностью + ноги полностью + бикини глубокое 75 руб (87 руб)</li>
-                                <li className='sub-list__item'>Ноги полностью + бикини глубокое 55 руб (57 руб)</li>
-                                <li className='sub-list__item'>Голень/бедро + бикини глубокое 45 руб (47 руб)</li>
-                            </ul>
-                        </li>
-                        <li className='list__menu'>
-                            <button onClick={buttonHandlerPeeling} className="list__menu-btn" style={{ borderBottom: !dropdownPeeling ? '3px solid #FEF3FF' : 'none' }} >
-                                <p className='list__item'>Пилинг</p>
-                                <span className="list__arrow"><img src={arrow} alt="arrow" /></span>
-                            </button>
-                            <ul className='sub-list__menu' style={{ display: dropdownPeeling ? 'block' : 'none' }}>
-                                <li className='sub-list__item'>Химический пилинг бикини 15 руб</li>
-                                <p>+ Противовоспалительная маска в подарок</p>
-                            </ul>
-                        </li>
-                    </ul>
-                </div> */}
-
-
-
-                {/* <button className='services-block__button'>
-                    <p>Стесняешься?</p>
-                    <p>просто постмотри, какую красоту я дарю клиенткам!</p>
-                </button> */}
+                <div className='services-block__shy'>
+                    <div className='services-block__shy-block'>
+                        <p className='shy-block__shy-title'>Стесняешься?</p>
+                        <p className='shy-block__shy-text'>просто постмотри, какую красоту я <br /> дарю клиенткам!</p>
+                    </div>
+                </div>
             </div>
         </div>
     )
