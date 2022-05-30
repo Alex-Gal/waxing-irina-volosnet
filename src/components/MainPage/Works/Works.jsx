@@ -1,11 +1,12 @@
 import React from 'react'
 import work_1 from '../../../images/work_1.png'
+import { Slider } from './Slider/Slider'
 
 import './Works.scss'
 
 export const Works = () => {
     return (
-        <div className="works-block">
+        <section className="works-block" id='works'>
             <div className="container">
                 <div className='works-block__images-blocks'>
                     <div className='images__block'>
@@ -22,7 +23,8 @@ export const Works = () => {
                     </div>
                 </div>
                 <h2>А что говорят девочки?</h2>
+                <Slider />
             </div>
-        </div>
+        </section>
     )
 }

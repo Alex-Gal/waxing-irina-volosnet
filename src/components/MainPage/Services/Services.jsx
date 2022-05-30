@@ -12,7 +12,7 @@ export const Services = () => {
 
 
     return (
-        <div className='services-block'>
+        <section className='services-block'>
             <div className="container">
                 <h2 className='services-block__title'>Как я подарю тебе уверенность?</h2>
 
@@ -94,12 +94,12 @@ export const Services = () => {
                 </div>
 
                 <div className='services-block__shy'>
-                    <div className='services-block__shy-block'>
-                        <p className='shy-block__shy-title'>Стесняешься?</p>
-                        <p className='shy-block__shy-text'>просто постмотри, какую красоту я <br /> дарю клиенткам!</p>
-                    </div>
+                    <a className='services-block__shy-link' href='#works'>
+                        <p className='shy-link__title'>Стесняешься?</p>
+                        <p className='shy-link__text'>просто постмотри, какую красоту я <br /> дарю клиенткам!</p>
+                    </a>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }

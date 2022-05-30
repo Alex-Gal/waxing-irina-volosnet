@@ -1,5 +1,5 @@
 .header {
-    height: 50px;
+    height: 40px;
     background: #FEF3FF;
     font-family: 'Mulish', sans-serif;
 
@@ -8,7 +8,7 @@
         flex-flow: row wrap;
         justify-content: space-between;
         align-items: center;
-        padding-top: 12px;
+        padding-top: 9px;
 
         .nav__menu {
             margin-left: 18px;
@@ -17,7 +17,7 @@
 
             .menu__link {
                 text-decoration: none;
-                font-size: 22px;
+                font-size: 20px;
                 font-weight: 500;
                 margin-right: 50px;
                 color: #464646;

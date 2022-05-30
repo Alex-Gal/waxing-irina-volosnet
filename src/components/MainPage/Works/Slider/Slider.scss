@@ -1,0 +1,93 @@
+.slider {
+    height: 200px;
+    margin: 0 25px;
+    padding-bottom: 280px;
+
+
+    .carousel {
+        background: #fff;
+        position: relative;
+
+        p {
+            padding: 40px 0;
+            font-family: 'Mulish';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 30px;
+            line-height: 38px;
+
+            color: #464646;
+        }
+
+        // Номер слайда
+        .carousel-status {
+            display: none;
+        }
+
+
+        // Стрелки вправо и влево
+        .control-arrow {
+            opacity: 0.7;
+            height: 50px;
+            width: 50px;
+            -webkit-mask-size: contain;
+            -webkit-mask-repeat: no-repeat;
+            -webkit-mask-position: center;
+            -webkit-mask-image: url('../../../../icons/double-arrow.svg');
+            background-color: #392F85;
+            margin-top: 50px;
+
+            &:hover {
+                background-color: #392F85;
+                opacity: 1;
+                height: 60px;
+                width: 60px;
+                margin-top: 45px;
+            }
+
+            &:before {
+                display: none;
+            }
+        }
+
+        .control-prev {
+            transform: rotate(270deg);
+            left: 0;
+
+            &:before {
+                border-right: 8px solid #392F85;
+            }
+        }
+
+        .control-next {
+            transform: rotate(90deg);
+            right: 0;
+
+            &:before {
+                border-left: 8px solid #392F85;
+            }
+        }
+
+        // Точки
+        .control-dots {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            bottom: -10px;
+            height: 50px;
+            background: #FEF3FF;
+
+            .dot {
+                opacity: 1;
+                height: 15px;
+                width: 15px;
+                border: 2px solid #D34A2E;
+            }
+
+            .selected {
+                background: #D34A2E;
+            }
+        }
+    }
+}

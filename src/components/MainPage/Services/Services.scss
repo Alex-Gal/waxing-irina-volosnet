@@ -102,11 +102,12 @@
         display: flex;
         justify-content: center;
 
-        .services-block__shy-block {
+        .services-block__shy-link {
             background: #D34A2E;
             padding: 24px 30px;
+            text-decoration: none;
 
-            .shy-block__shy-title {
+            .shy-link__title {
                 font-family: 'Scotch';
                 font-style: normal;
                 font-weight: 400;
@@ -119,7 +120,7 @@
                 color: #FEF3FF;
             }
 
-            .shy-block__shy-text {
+            .shy-link__text {
                 font-family: 'Mulish';
                 font-style: normal;
                 font-weight: 500;

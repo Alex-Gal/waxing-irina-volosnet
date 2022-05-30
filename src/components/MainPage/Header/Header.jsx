@@ -4,7 +4,7 @@ import './Header.scss'
 
 export const Header = () => {
     return (
-        <div className='header'>
+        <section className='header'>
             <div className='container'>
                 <nav className='header__nav'>
                     <ul className='nav__menu'>
@@ -17,6 +17,6 @@ export const Header = () => {
                     </div>
                 </nav>
             </div>
-        </div>
+        </section>
     )
 }

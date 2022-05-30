@@ -5,7 +5,7 @@ import './About.scss'
 
 export const About = () => {
     return (
-        <div className='about-block'>
+        <section className='about-block'>
             <div className="container">
                 <h2 className='about-block__title'>Лечу зависимость от бритвы</h2>
                 <div className='about-block__block'>
@@ -21,6 +21,6 @@ export const About = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
