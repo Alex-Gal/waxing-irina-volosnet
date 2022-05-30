@@ -21,7 +21,7 @@
         display: flex;
         flex-flow: row wrap;
         justify-content: space-between;
-        height: 692px;
+        height: 691px;
 
         .about-block__text {
             width: 50%;
@@ -48,13 +48,13 @@
         }
 
         .about-block__image {
-            position: relative;
-            right: -43px;
-            // right: 0px;
+            position: absolute;
+            // background-size: contain no-repeat;
+            right: 0px;
             width: 50%;
 
             img {
-                position: relative;
+                position: absolute;
                 right: 0px;
             }
         }
