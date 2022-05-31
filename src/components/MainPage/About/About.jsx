@@ -10,7 +10,7 @@ export const About = () => {
                 <h2 className='about-block__title'>Лечу зависимость от бритвы</h2>
                 <div className='about-block__block'>
                     <div className='about-block__text'>
-                        <h3>Обо мне</h3>
+                        <h2>Обо мне</h2>
                         <p>Я твой самый любимый и лучший мастер по депиляции</p>
                         <p>Открыла свою студию по депиляции через 8 месяцев после Базового обучения</p>
                         <p>Обучаю. Являюсь технологом бренда Italwax</p>

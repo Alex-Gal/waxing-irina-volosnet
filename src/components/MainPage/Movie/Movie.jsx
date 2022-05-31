@@ -9,7 +9,7 @@ export const Movie = () => {
         <section className='movie'>
             <div className="container">
                 <h2 className="movie__title">Почувствуй мою атмосферу</h2>
-                <video className="movie__video" loop playsinline controls autoplay muted >
+                <video className="movie__video" autoPlay muted loop controls>
                     <source src={video} type="video/mp4" />
                 </video>
             </div>
