@@ -3,13 +3,12 @@
     margin: 0 25px;
     padding-bottom: 280px;
 
-
     .carousel {
         background: #fff;
         position: relative;
 
         p {
-            padding: 40px 0;
+            padding: 40px 50px;
             font-family: 'Mulish';
             font-style: normal;
             font-weight: 500;
@@ -17,6 +16,11 @@
             line-height: 38px;
 
             color: #464646;
+        }
+
+        img {
+            height: 40px;
+            width: 40px;
         }
 
         // Номер слайда
@@ -89,5 +93,14 @@
                 background: #D34A2E;
             }
         }
+
+        .slider__text_five {
+            padding: 15px 50px;
+        }
+
+        .slider__text_six {
+            padding: 55px 50px;
+        }
+
     }
 }

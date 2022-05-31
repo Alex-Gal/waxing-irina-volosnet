@@ -1,5 +1,7 @@
 .movie {
-    padding: 27px 0 109px 0;
+    display: flex;
+    justify-content: center;
+    padding: 27px 0 100px 0;
 
     .movie__title {
         font-family: 'Scotch';
@@ -13,5 +15,11 @@
         text-transform: uppercase;
 
         color: #392F85;
+        padding-bottom: 28px;
+    }
+
+    .movie__video {
+        height: 95vh;
+        width: 100%;
     }
 }
