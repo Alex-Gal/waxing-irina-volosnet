@@ -10,22 +10,29 @@
         .images__block {
             position: relative;
 
+            img {
+                height: 430px;
+                width: 320px;
+                border-radius: 10px;
+            }
+
             div {
                 position: absolute;
-                top: 281px;
-                left: 50px;
+                top: 400px;
+                left: 40px;
                 height: 61px;
-                width: 292px;
+                width: 320px;
                 background: #392F85;
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                border-radius: 5px;
 
                 span {
                     font-family: 'Mulish';
                     font-style: normal;
                     font-weight: 500;
-                    font-size: 30px;
+                    font-size: 25px;
                     text-align: center;
 
                     color: #FEF3FF;

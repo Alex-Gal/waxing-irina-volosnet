@@ -1,0 +1,78 @@
+.education {
+    position: relative;
+    height: 850px;
+    background: #FEF3FF;
+    padding: 50px 0;
+
+    .education__image {
+        position: absolute;
+        left: 0;
+
+
+        img {
+            width: 50vw;
+            height: 100%;
+        }
+    }
+
+    .education__block {
+        position: relative;
+
+        .education__text {
+            // border: 1px solid red;
+            max-width: 40%;
+            position: absolute;
+            top: 50px;
+            right: 0;
+
+            h2 {
+                font-family: 'Scotch';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 60px;
+                line-height: 69px;
+                text-align: center;
+                letter-spacing: 0.05em;
+                text-transform: uppercase;
+                padding-bottom: 25px;
+
+                color: #392F85;
+            }
+
+            p {
+                font-family: 'Mulish';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 30px;
+                line-height: 38px;
+
+                padding-bottom: 15px;
+
+                color: #464646;
+            }
+
+            .education__button {
+                padding-top: 40px;
+
+                button {
+
+                    cursor: pointer;
+                    width: 350px;
+                    height: 70px;
+                    border: none;
+
+                    background: #D34A2E;
+                    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+                    font-family: 'Mulish';
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 50px;
+                    text-transform: uppercase;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+}
