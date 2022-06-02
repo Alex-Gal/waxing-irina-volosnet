@@ -1,8 +1,18 @@
-@mixin text {
+@mixin title-font {
+    font-family: 'Scotch';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 69px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+@mixin text-font {
     font-family: 'Mulish';
     font-style: normal;
     font-weight: 500;
-    line-height: 38px;
+    line-height: 30px;
     color: #464646;
 }
 
@@ -11,10 +21,11 @@
     background: #FEF3FF;
 
     .about-block__title {
-        padding: 38px 0;
+        @include text-font;
+        padding: 20px 0;
         text-align: center;
         font-size: 30px;
-        @include text;
+        font-style: italic;
     }
 
     .about-block__block {
@@ -28,28 +39,27 @@
         }
 
         h2 {
-            padding: 70px 0;
-            font-family: 'Scotch';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 60px;
-            line-height: 69px;
-            letter-spacing: 0.05em;
-            text-transform: uppercase;
+            @include title-font;
+            padding: 30px 0;
             text-align: center;
-
             color: #392F85;
         }
 
         p {
-            font-size: 30px;
+            @include text-font;
+            font-size: 22px;
             padding-bottom: 20px;
-            @include text;
+
+            span {
+                text-transform: uppercase;
+                font-weight: 800;
+                font-size: 25px;
+                color: rgb(255, 70, 70);
+            }
         }
 
         .about-block__image {
             position: absolute;
-            // background-size: contain no-repeat;
             right: 0px;
             width: 50%;
 

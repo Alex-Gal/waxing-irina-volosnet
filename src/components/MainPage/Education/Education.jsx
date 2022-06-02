@@ -22,7 +22,6 @@ export const Education = () => {
                             <button>Подробнее про обучение...</button>
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>

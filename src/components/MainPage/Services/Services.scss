@@ -1,17 +1,26 @@
+@mixin title-font {
+    font-family: 'Scotch';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 69px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+@mixin text-font {
+    font-family: 'Mulish';
+    font-weight: 500;
+}
+
 .services-block {
     background: #5F5F5F;
     color: #FEF3FF;
 
     .services-block__title {
-        font-family: 'Scotch';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 60px;
-        line-height: 69px;
-        text-align: center;
-        letter-spacing: 0.05em;
-        text-transform: uppercase;
-        padding: 55px 0 67px 0;
+        @include title-font;
+        padding: 50px 0;
     }
 
     .services-block__list {
@@ -24,34 +33,31 @@
                 display: flex;
                 flex-flow: column nowrap;
                 justify-content: space-between;
-                transition: all 0.8s ease-out;
 
                 .list__menu-btn {
                     display: flex;
                     flex-flow: row nowrap;
                     justify-content: space-between;
 
-                    font-family: 'Mulish';
-                    font-style: normal;
-                    font-weight: 500;
+                    @include text-font;
                     font-size: 35px;
-                    line-height: 80px;
+                    line-height: 55px;
                     text-transform: uppercase;
                     background: transparent;
                     border: none;
+
                     color: #FEF3FF;
                 }
 
                 .sub-list__menu {
-                    font-family: 'Mulish';
-                    font-style: normal;
-                    font-weight: 500;
+                    @include text-font;
                     font-size: 23px;
                     line-height: 25px;
-                    color: #5F5F5F;
                     background: #FEF3FF;
                     padding: 20px 40px;
                     border-radius: 20px;
+
+                    color: #5F5F5F;
 
                     hr {
                         height: 1px;
@@ -97,34 +103,26 @@
 
     .services-block__shy {
         display: inline-block;
-        padding: 100px 0;
-
         display: flex;
         justify-content: center;
+        padding: 50px 0 100px 0;
+
 
         .services-block__shy-link {
-            background: #D34A2E;
+            border-radius: 100px 50px 100px 10px;
             padding: 24px 30px;
+            background: #D34A2E;
             text-decoration: none;
 
             .shy-link__title {
-                font-family: 'Scotch';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 60px;
-                line-height: 69px;
-                text-align: center;
-                letter-spacing: 0.05em;
-                text-transform: uppercase;
+                @include title-font;
 
                 color: #FEF3FF;
             }
 
             .shy-link__text {
-                font-family: 'Mulish';
-                font-style: normal;
-                font-weight: 500;
-                font-size: 30px;
+                @include text-font;
+                font-size: 25px;
                 line-height: 38px;
                 text-align: center;
 

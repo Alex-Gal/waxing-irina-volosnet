@@ -11,17 +11,18 @@
         padding-top: 9px;
 
         .nav__menu {
-            margin-left: 18px;
             display: flex;
             justify-content: space-between;
+            margin-left: 18px;
 
             .menu__link {
                 text-decoration: none;
                 font-size: 20px;
                 font-weight: 500;
                 margin-right: 50px;
-                color: #464646;
                 text-transform: uppercase;
+
+                color: #464646;
             }
         }
     }
@@ -29,10 +30,10 @@
     .navbar__button {
         cursor: pointer;
         position: absolute;
-        width: 400px;
-        height: 70px;
         right: 0px;
         top: 0px;
+        width: 400px;
+        height: 70px;
         border: none;
         z-index: 10;
 
@@ -44,6 +45,7 @@
         font-size: 20px;
         line-height: 50px;
         text-transform: uppercase;
+
         color: #FFFFFF;
     }
 }

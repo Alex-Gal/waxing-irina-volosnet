@@ -1,4 +1,4 @@
-@mixin title_font {
+@mixin title-font {
     font-family: 'Mulish';
     font-weight: 500;
     color: #FFFFFF;
@@ -22,14 +22,14 @@
     }
 
     .header__title>h1 {
-        @include title_font;
+        @include title-font;
         font-size: 50px;
         line-height: 50px;
         border-bottom: 2px solid #FFFFFF;
     }
 
     .header__title>h2 {
-        @include title_font;
+        @include title-font;
         font-size: 65px;
         line-height: 65px;
     }

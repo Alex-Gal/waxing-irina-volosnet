@@ -1,25 +1,32 @@
+@mixin title-font {
+    font-family: 'Scotch';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 69px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
 .movie {
+    position: relative;
     display: flex;
     justify-content: center;
-    padding: 27px 0 100px 0;
+    padding: 50px 0;
 
     .movie__title {
-        font-family: 'Scotch';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 60px;
-        line-height: 69px;
-
-        text-align: center;
-        letter-spacing: 0.05em;
-        text-transform: uppercase;
+        @include title-font;
+        padding-bottom: 30px;
 
         color: #392F85;
-        padding-bottom: 20px;
     }
 
-    .movie__video {
-        height: 70vh;
-        // width: 100%;
+    .movie__block {
+        display: flex;
+        justify-content: center;
+
+        .movie__video {
+            height: 70vh;
+        }
     }
 }
