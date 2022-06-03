@@ -24,7 +24,7 @@
             img {
                 height: 430px;
                 width: 320px;
-                border-radius: 10px;
+                // border-radius: 10px;
             }
 
             div {
@@ -37,7 +37,7 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                border-radius: 5px;
+                // border-radius: 5px;
 
                 span {
                     font-family: 'Mulish';
@@ -54,7 +54,7 @@
 
     h2 {
         @include title-font;
-        padding-bottom: 74px;
+        padding-bottom: 50px;
 
         color: #D34A2E;
     }

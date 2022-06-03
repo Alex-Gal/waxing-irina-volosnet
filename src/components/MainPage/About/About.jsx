@@ -1,13 +1,17 @@
 import React from 'react'
 import about from '../../../images/about_photo.jpg'
+import razor from '../../../icons/razor.png'
 
 import './About.scss'
 
 export const About = () => {
     return (
-        <section className='about-block'>
+        <section className='about-block' id='section1'>
             <div className="container">
-                <h2 className='about-block__title'>Лечу зависимость от бритвы</h2>
+                <div className='about-block__title-block'>
+                    <h2 className='about-block__title'>Лечу зависимость от бритвы </h2>
+                    <img src={razor} alt="razor" />
+                </div>
                 <div className='about-block__block'>
                     <div className='about-block__text'>
                         <h2>Обо мне</h2>

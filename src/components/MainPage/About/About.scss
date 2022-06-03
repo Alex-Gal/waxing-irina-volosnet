@@ -20,13 +20,26 @@
     position: relative;
     background: #FEF3FF;
 
-    .about-block__title {
-        @include text-font;
-        padding: 20px 0;
-        text-align: center;
-        font-size: 30px;
-        font-style: italic;
+    .about-block__title-block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .about-block__title {
+            @include text-font;
+            padding: 30px 0;
+            text-align: center;
+            font-size: 30px;
+            font-style: italic;
+            padding-right: 10px;
+        }
+
+        img {
+            height: 50px;
+            width: 50px;
+        }
     }
+
 
     .about-block__block {
         display: flex;

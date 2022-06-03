@@ -1,26 +1,27 @@
-.slider {
+.reviews-slider {
     height: 200px;
     margin: 0 25px;
-    padding-bottom: 280px;
+    padding-bottom: 50px;
 
     .carousel {
         background: #fff;
         position: relative;
+        height: 160px;
 
         p {
-            padding: 40px 50px;
+            padding: 30px 50px;
             font-family: 'Mulish';
             font-style: normal;
             font-weight: 500;
-            font-size: 30px;
-            line-height: 38px;
+            font-size: 22px;
+            line-height: 30px;
 
             color: #464646;
         }
 
         img {
-            height: 40px;
-            width: 40px;
+            height: 30px;
+            width: 30px;
         }
 
         // Номер слайда
@@ -38,14 +39,14 @@
             -webkit-mask-position: center;
             -webkit-mask-image: url('../../../../icons/double-arrow.svg');
             background-color: #392F85;
-            margin-top: 50px;
+            margin-top: 35px;
 
             &:hover {
                 background-color: #392F85;
                 opacity: 1;
                 height: 60px;
                 width: 60px;
-                margin-top: 45px;
+                margin-top: 30px;
             }
 
             &:before {
@@ -77,14 +78,14 @@
             align-items: center;
             justify-content: center;
             position: absolute;
-            bottom: -10px;
+            bottom: -20px;
             height: 50px;
             background: #FEF3FF;
 
             .dot {
                 opacity: 1;
-                height: 15px;
-                width: 15px;
+                height: 12px;
+                width: 12px;
                 border: 2px solid #D34A2E;
             }
 
@@ -93,12 +94,16 @@
             }
         }
 
-        .slider__text_five {
+        .reviews-slider__text_two {
+            padding: 45px 50px;
+        }
+
+        .reviews-slider__text_five {
             padding: 15px 50px;
         }
 
-        .slider__text_six {
-            padding: 55px 50px;
+        .reviews-slider__text_six {
+            padding: 45px 50px;
         }
 
     }

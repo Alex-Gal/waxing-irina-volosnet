@@ -12,7 +12,7 @@ export const Services = () => {
 
 
     return (
-        <section className='services-block'>
+        <section className='services-block' id='services-block'>
             <div className="container">
                 <h2 className='services-block__title'>Как я подарю тебе уверенность?</h2>
 

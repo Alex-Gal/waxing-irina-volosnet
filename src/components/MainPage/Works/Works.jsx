@@ -2,7 +2,7 @@ import React from 'react'
 import work1 from '../../../images/work_1.jpg'
 import work_2 from '../../../images/work_2.jpg'
 import work_3 from '../../../images/work_3.jpg'
-import { Slider } from './Slider/Slider'
+import { ReviewsSlider } from './ReviewsSlider/ReviewsSlider'
 
 import './Works.scss'
 
@@ -25,7 +25,7 @@ export const Works = () => {
                     </div>
                 </div>
                 <h2>А что говорят девочки?</h2>
-                <Slider />
+                <ReviewsSlider />
             </div>
         </section>
     )
