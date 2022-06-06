@@ -1,12 +1,29 @@
 import React from 'react'
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 import './Navbar.scss'
 
 export const Navbar = () => {
+    // let { btnClass, setBtnClass } = useState('button-top')
 
-    const scrollToTop = () => {
-        scroll.scrollToTop();
+    // const offset = 100;
+    // const getTop = () => window.scrollY || document.documentElement.scrollTop;
+
+    const scrollUp = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        })
+    }
+
+    const btnVisible = {
+        visibility: 'visible',
+        opacity: 1
+    }
+
+    const btnNotVisible = {
+        visibility: 'hidden',
+        opacity: 0
     }
 
     return (
@@ -41,7 +58,24 @@ export const Navbar = () => {
                     </div>
                 </nav>
             </div>
-            <button className='button-top' onClick={scrollToTop}></button>
-        </section>
+
+            <button
+                className='button-top button-top--active'
+                onScroll={() => {
+                    if (document.body.scrollTop == 0 || document.documentElement.scrollTop == 0) {
+                        console.log('yes')
+                    } else {
+                        console.log('none')
+                    }
+                }
+                }
+                // onScroll={document.body.scrollTop > 20 || document.documentElement.scrollTop > 20
+                //     ? style = {btnVisible}
+                //     : style = {btnNotVisible}}
+                onClick={scrollUp}>
+            </button>
+            {/* <button className={document.body.scrollTop > 20 || document.documentElement.scrollTop > 20 ? 'button-top button-top--active' : 'button-top'} onClick={scrollUp}></button> */}
+            {/* <button className='button-top button-top--active' onClick={scrollUp}></button> */}
+        </section >
     )
 }
