@@ -32,16 +32,17 @@
             .list__menu {
                 display: flex;
                 flex-flow: column nowrap;
-                justify-content: space-between;
+                justify-content: center;
 
                 .list__menu-btn {
                     display: flex;
                     flex-flow: row nowrap;
                     justify-content: space-between;
+                    align-items: center;
 
                     @include text-font;
-                    font-size: 35px;
-                    line-height: 55px;
+                    font-size: 25px;
+                    line-height: 40px;
                     text-transform: uppercase;
                     background: transparent;
                     border: none;
@@ -49,10 +50,20 @@
                     color: #FEF3FF;
                 }
 
+                span {
+                    display: flex;
+                    align-items: center;
+
+                    img {
+                        height: 30px;
+                        width: 30px;
+                    }
+                }
+
                 .sub-list__menu {
                     @include text-font;
-                    font-size: 23px;
-                    line-height: 25px;
+                    font-size: 18px;
+                    line-height: 20px;
                     background: #FEF3FF;
                     padding: 20px 40px;
                     border-radius: 20px;

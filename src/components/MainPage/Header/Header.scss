@@ -15,22 +15,24 @@
     background: url('../../../images/main_face.png') no-repeat center;
     background-size: cover;
     z-index: 0;
+    text-align: left;
 
     .header__title {
-        padding-top: 60vh;
+        padding-top: 70vh;
         display: inline-block;
+        text-align: center;
     }
 
     .header__title>h1 {
         @include title-font;
-        font-size: 50px;
-        line-height: 50px;
+        font-size: 40px;
+        line-height: 40px;
         border-bottom: 2px solid #FFFFFF;
     }
 
     .header__title>h2 {
         @include title-font;
-        font-size: 65px;
-        line-height: 65px;
+        font-size: 52px;
+        line-height: 53px;
     }
 }

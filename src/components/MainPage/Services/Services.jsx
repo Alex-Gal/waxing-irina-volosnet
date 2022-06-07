@@ -20,7 +20,7 @@ export const Services = () => {
                 <div className='services-block__list'>
                     <ul className='list__menu-block'>
                         <li className='list__menu'>
-                            <button onClick={() => setShowZone(!showZone)} className="list__menu-btn" style={{ borderBottom: !showZone ? '3px solid #FEF3FF' : 'none' }} >
+                            <button onClick={() => setShowZone(!showZone)} className="list__menu-btn" style={{ borderBottom: !showZone ? '2px solid #FEF3FF' : 'none' }} >
                                 <p className='list__item'>Депиляция зон</p>
                                 <span className="list__arrow"><img src={arrow} alt="arrow" /></span>
                             </button>
@@ -50,7 +50,7 @@ export const Services = () => {
                         </li>
 
                         <li className='list__menu'>
-                            <button onClick={() => setShowComplex(!showComplex)} className="list__menu-btn" style={{ borderBottom: !showComplex ? '3px solid #FEF3FF' : 'none' }} >
+                            <button onClick={() => setShowComplex(!showComplex)} className="list__menu-btn" style={{ borderBottom: !showComplex ? '2px solid #FEF3FF' : 'none' }} >
                                 <p className='list__item'>Комплексы</p>
                                 <span className="list__arrow"><img src={arrow} alt="arrow" /></span>
                             </button>
@@ -76,7 +76,7 @@ export const Services = () => {
                         </li>
 
                         <li className='list__menu'>
-                            <button onClick={() => setShowPeeling(!showPeeling)} className="list__menu-btn" style={{ borderBottom: !showPeeling ? '3px solid #FEF3FF' : 'none' }} >
+                            <button onClick={() => setShowPeeling(!showPeeling)} className="list__menu-btn" style={{ borderBottom: !showPeeling ? '2px solid #FEF3FF' : 'none' }} >
                                 <p className='list__item'>Пилинг</p>
                                 <span className="list__arrow"><img src={arrow} alt="arrow" /></span>
                             </button>

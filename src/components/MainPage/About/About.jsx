@@ -29,7 +29,7 @@ export const About = () => {
                             <p>Обучаю. Являюсь технологом итальянского бренда <span>Italwax</span></p>
                         </AnimationOnScroll>
                         <AnimationOnScroll animateIn="animate__fadeInLeftBig" duration={0.5}>
-                            <p>+1000 депиляций, более 5 обучений</p>
+                            <p>1000+ депиляций, более 5 обучений</p>
                         </AnimationOnScroll>
                     </div>
                     <div className='about-block__image'>
