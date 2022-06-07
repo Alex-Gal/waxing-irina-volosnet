@@ -1,21 +1,31 @@
 {
   "files": {
-    "main.css": "/waxing-irina-volosnet/static/css/main.a20bdf3e.css",
-    "main.js": "/waxing-irina-volosnet/static/js/main.c0b1484e.js",
+    "main.css": "/waxing-irina-volosnet/static/css/main.cf98f84e.css",
+    "main.js": "/waxing-irina-volosnet/static/js/main.77d4ec77.js",
     "static/js/787.84cc3fdc.chunk.js": "/waxing-irina-volosnet/static/js/787.84cc3fdc.chunk.js",
-    "static/media/main_face.png": "/waxing-irina-volosnet/static/media/main_face.6b7039e0ad945f793c31.png",
+    "static/media/movie_1.mp4": "/waxing-irina-volosnet/static/media/movie_1.2ba41a025f827423f45d.mp4",
+    "static/media/main_face.png": "/waxing-irina-volosnet/static/media/main_face.96e2d675ccab911b428f.png",
     "static/media/about_photo.jpg": "/waxing-irina-volosnet/static/media/about_photo.34d58c770f39ebc67d04.jpg",
-    "static/media/work_1.png": "/waxing-irina-volosnet/static/media/work_1.3058791618d47ff5906b.png",
+    "static/media/footer_photo.jpg": "/waxing-irina-volosnet/static/media/footer_photo.a39c69b99f5b4657dd63.jpg",
+    "static/media/work_3.jpg": "/waxing-irina-volosnet/static/media/work_3.22b2923da37d4e160be3.jpg",
+    "static/media/work_2.jpg": "/waxing-irina-volosnet/static/media/work_2.d7cac95e318df90f1349.jpg",
+    "static/media/work_1.jpg": "/waxing-irina-volosnet/static/media/work_1.89e2327f446c31fe98c9.jpg",
+    "static/media/education_photo.jpg": "/waxing-irina-volosnet/static/media/education_photo.beff4ad58a0c1d33a5da.jpg",
+    "static/media/telegram.svg": "/waxing-irina-volosnet/static/media/telegram.41f07d04e690934d7713fae45eb3a741.svg",
+    "static/media/instagram.svg": "/waxing-irina-volosnet/static/media/instagram.a249f0586e604e09fdb4c219cb7ba7c2.svg",
     "static/media/scotchfontbylyajka.ttf": "/waxing-irina-volosnet/static/media/scotchfontbylyajka.809c2ecc9632cc00b90e.ttf",
+    "static/media/tiktok.svg": "/waxing-irina-volosnet/static/media/tiktok.5db002cbf5292c98937f3302f8861974.svg",
+    "static/media/smile_1.svg": "/waxing-irina-volosnet/static/media/smile_1.94bab73fa39611225bfe78994f7c6ee8.svg",
+    "static/media/smile_2.svg": "/waxing-irina-volosnet/static/media/smile_2.63632ec958a67461531695be483a1b68.svg",
     "index.html": "/waxing-irina-volosnet/index.html",
     "static/media/double-arrow.svg": "/waxing-irina-volosnet/static/media/double-arrow.8f4e96169eed65c58e4f.svg",
     "static/media/arrow.svg": "/waxing-irina-volosnet/static/media/arrow.b5352f816083f3a7b0b8769a0b12921e.svg",
-    "main.a20bdf3e.css.map": "/waxing-irina-volosnet/static/css/main.a20bdf3e.css.map",
-    "main.c0b1484e.js.map": "/waxing-irina-volosnet/static/js/main.c0b1484e.js.map",
+    "main.cf98f84e.css.map": "/waxing-irina-volosnet/static/css/main.cf98f84e.css.map",
+    "main.77d4ec77.js.map": "/waxing-irina-volosnet/static/js/main.77d4ec77.js.map",
     "787.84cc3fdc.chunk.js.map": "/waxing-irina-volosnet/static/js/787.84cc3fdc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a20bdf3e.css",
-    "static/js/main.c0b1484e.js"
+    "static/css/main.cf98f84e.css",
+    "static/js/main.77d4ec77.js"
   ]
 }
