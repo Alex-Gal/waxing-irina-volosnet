@@ -1,4 +1,5 @@
 import React from 'react'
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 import about from '../../../images/about_photo.jpg'
 import razor from '../../../icons/razor.png'
 
@@ -15,11 +16,21 @@ export const About = () => {
                 <div className='about-block__block'>
                     <div className='about-block__text'>
                         <h2>Обо мне</h2>
-                        <p>Я - твой самый любимый и лучший мастер по депиляции</p>
-                        <p>Открыла свою студию по депиляции через 8 месяцев после Базового обучения</p>
-                        <p>Только <span>самые</span> качественные воски и материалы для депиляции</p>
-                        <p>Обучаю. Являюсь технологом итальянского бренда <span>Italwax</span></p>
-                        <p>+1000 депиляций, более 5 обучений</p>
+                        <AnimationOnScroll animateIn="animate__fadeInLeftBig" duration={0.5}>
+                            <p>Я - твой самый любимый и лучший мастер по депиляции</p>
+                        </AnimationOnScroll>
+                        <AnimationOnScroll animateIn="animate__fadeInLeftBig" duration={0.5}>
+                            <p>Открыла свою студию по депиляции через 8 месяцев после Базового обучения</p>
+                        </AnimationOnScroll>
+                        <AnimationOnScroll animateIn="animate__fadeInLeftBig" duration={0.5}>
+                            <p>Только <span>самые</span> качественные воски и материалы для депиляции</p>
+                        </AnimationOnScroll>
+                        <AnimationOnScroll animateIn="animate__fadeInLeftBig" duration={0.5}>
+                            <p>Обучаю. Являюсь технологом итальянского бренда <span>Italwax</span></p>
+                        </AnimationOnScroll>
+                        <AnimationOnScroll animateIn="animate__fadeInLeftBig" duration={0.5}>
+                            <p>+1000 депиляций, более 5 обучений</p>
+                        </AnimationOnScroll>
                     </div>
                     <div className='about-block__image'>
                         <img src={about} alt="about-irina" />

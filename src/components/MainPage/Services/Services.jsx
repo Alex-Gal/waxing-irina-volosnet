@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
 import { CSSTransition } from 'react-transition-group'
+import { Link } from "react-scroll"
+import { AnimationOnScroll } from 'react-animation-on-scroll';
+
 import arrow from '../../../icons/arrow.svg'
-
-
 import './Services.scss'
 
 export const Services = () => {
@@ -92,13 +93,22 @@ export const Services = () => {
                         </li>
                     </ul>
                 </div>
+                <AnimationOnScroll animateIn="animate__shakeY" animateOut="animate__bounceOutRight" animateOnce={true}>
 
-                <div className='services-block__shy'>
-                    <a className='services-block__shy-link' href='#works'>
-                        <p className='shy-link__title'>Стесняешься?</p>
-                        <p className='shy-link__text'>просто постмотри, какую красоту я <br /> дарю клиенткам!</p>
-                    </a>
-                </div>
+                    <div className='services-block__shy'>
+                        <Link
+                            className='services-block__shy-link'
+                            activeClass="active"
+                            to="works"
+                            smooth={true}
+                            offset={-20}
+                            duration={350}
+                        >
+                            <p className='shy-link__title'>Стесняешься?</p>
+                            <p className='shy-link__text'>просто постмотри, какую красоту я <br /> дарю клиенткам!</p>
+                        </Link>
+                    </div>
+                </AnimationOnScroll>
             </div>
         </section>
     )
