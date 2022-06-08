@@ -4,7 +4,7 @@ import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 import './Education.scss'
 
-export const Education = () => {
+const Education = () => {
     return (
         <section className="education">
             <div className='education__image'>
@@ -36,3 +36,5 @@ export const Education = () => {
         </section>
     )
 }
+
+export default Education;

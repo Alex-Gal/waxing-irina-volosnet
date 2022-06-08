@@ -7,7 +7,7 @@ import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 import './Works.scss'
 
-export const Works = () => {
+const Works = () => {
     return (
         <section className="works-block" id='works'>
             <div className="container">
@@ -37,3 +37,5 @@ export const Works = () => {
         </section>
     )
 }
+
+export default Works;

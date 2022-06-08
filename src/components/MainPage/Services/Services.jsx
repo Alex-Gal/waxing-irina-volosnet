@@ -6,7 +6,7 @@ import { AnimationOnScroll } from 'react-animation-on-scroll';
 import arrow from '../../../icons/arrow.svg'
 import './Services.scss'
 
-export const Services = () => {
+const Services = () => {
     const [showZone, setShowZone] = useState(false);
     const [showComplex, setShowComplex] = useState(false);
     const [showPeeling, setShowPeeling] = useState(false);
@@ -113,3 +113,5 @@ export const Services = () => {
         </section>
     )
 }
+
+export default Services;

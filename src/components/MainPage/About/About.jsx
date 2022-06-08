@@ -5,7 +5,7 @@ import razor from '../../../icons/razor.png'
 
 import './About.scss'
 
-const About = () => {
+export const About = () => {
     return (
         <section className='about-block' id='section1'>
             <div className="container">
@@ -40,5 +40,3 @@ const About = () => {
         </section>
     )
 }
-
-export default About;

@@ -7,7 +7,7 @@ import tiktok from '../../../icons/tiktok.svg'
 
 import './Footer.scss'
 
-export const Footer = () => {
+const Footer = () => {
     return (
         <footer className='footer' id='contacts'>
             <div className="container">
@@ -44,3 +44,5 @@ export const Footer = () => {
         </footer>
     )
 }
+
+export default Footer;
