@@ -1,7 +1,11 @@
 {
   "files": {
-    "main.css": "/waxing-irina-volosnet/static/css/main.ac25fe57.css",
-    "main.js": "/waxing-irina-volosnet/static/js/main.07dc8756.js",
+    "main.css": "/waxing-irina-volosnet/static/css/main.79f74c58.css",
+    "main.js": "/waxing-irina-volosnet/static/js/main.54a1338d.js",
+    "static/css/944.423763e2.chunk.css": "/waxing-irina-volosnet/static/css/944.423763e2.chunk.css",
+    "static/js/944.18cc42f2.chunk.js": "/waxing-irina-volosnet/static/js/944.18cc42f2.chunk.js",
+    "static/css/635.a745f4ac.chunk.css": "/waxing-irina-volosnet/static/css/635.a745f4ac.chunk.css",
+    "static/js/635.36b47d01.chunk.js": "/waxing-irina-volosnet/static/js/635.36b47d01.chunk.js",
     "static/js/787.84cc3fdc.chunk.js": "/waxing-irina-volosnet/static/js/787.84cc3fdc.chunk.js",
     "static/media/movie_1.mp4": "/waxing-irina-volosnet/static/media/movie_1.2ba41a025f827423f45d.mp4",
     "static/media/main_face.png": "/waxing-irina-volosnet/static/media/main_face.96e2d675ccab911b428f.png",
@@ -20,12 +24,16 @@
     "index.html": "/waxing-irina-volosnet/index.html",
     "static/media/double-arrow.svg": "/waxing-irina-volosnet/static/media/double-arrow.8f4e96169eed65c58e4f.svg",
     "static/media/arrow.svg": "/waxing-irina-volosnet/static/media/arrow.b5352f816083f3a7b0b8769a0b12921e.svg",
-    "main.ac25fe57.css.map": "/waxing-irina-volosnet/static/css/main.ac25fe57.css.map",
-    "main.07dc8756.js.map": "/waxing-irina-volosnet/static/js/main.07dc8756.js.map",
+    "main.79f74c58.css.map": "/waxing-irina-volosnet/static/css/main.79f74c58.css.map",
+    "main.54a1338d.js.map": "/waxing-irina-volosnet/static/js/main.54a1338d.js.map",
+    "944.423763e2.chunk.css.map": "/waxing-irina-volosnet/static/css/944.423763e2.chunk.css.map",
+    "944.18cc42f2.chunk.js.map": "/waxing-irina-volosnet/static/js/944.18cc42f2.chunk.js.map",
+    "635.a745f4ac.chunk.css.map": "/waxing-irina-volosnet/static/css/635.a745f4ac.chunk.css.map",
+    "635.36b47d01.chunk.js.map": "/waxing-irina-volosnet/static/js/635.36b47d01.chunk.js.map",
     "787.84cc3fdc.chunk.js.map": "/waxing-irina-volosnet/static/js/787.84cc3fdc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac25fe57.css",
-    "static/js/main.07dc8756.js"
+    "static/css/main.79f74c58.css",
+    "static/js/main.54a1338d.js"
   ]
 }
