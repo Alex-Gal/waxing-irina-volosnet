@@ -19,14 +19,20 @@ export const MainPage = () => {
             <main className='main'>
                 <Header />
                 <About />
-                <Suspense fallback={<Preloader/>}>
+                <Suspense fallback={<Preloader />}>
                     <Services />
+                </Suspense>
+                <Suspense fallback={<Preloader />}>
                     <Works />
+                </Suspense>
+                <Suspense fallback={<Preloader />}>
                     <Movie />
+                </Suspense>
+                <Suspense fallback={<Preloader />}>
                     <Education />
                 </Suspense>
             </main>
-            <Suspense fallback={<Preloader/>}>
+            <Suspense fallback={<Preloader />}>
                 <Footer />
             </Suspense>
         </>
