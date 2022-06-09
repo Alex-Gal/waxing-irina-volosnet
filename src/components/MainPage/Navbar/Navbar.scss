@@ -13,6 +13,7 @@
         .nav__menu {
             display: flex;
             justify-content: space-between;
+            align-items: center;
             margin-left: 18px;
 
             .menu__link {
@@ -96,3 +97,49 @@
         transform: translateY(0);
     }
 }
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .navbar {
+        height: 30px;
+
+        .navbar__nav {
+            padding-top: 7px;
+
+            .nav__menu {
+                margin-left: 10px;
+
+                .menu__link {
+                    font-size: 15px;
+                    margin-right: 30px;
+                }
+            }
+        }
+
+        .navbar__button {
+            width: 300px;
+            height: 50px;
+            font-size: 17px;
+        }
+
+        .button-top {
+            bottom: 30px;
+            right: 30px;
+            border-radius: 50px;
+            width: 40px;
+            height: 40px;
+            box-shadow: inset 0 0 0 3px #dcdcdc;
+
+            &::before {
+                font-size: 18px;
+            }
+
+            &:hover {
+                box-shadow: inset 0 0 0 3px #D34A2E;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {}
