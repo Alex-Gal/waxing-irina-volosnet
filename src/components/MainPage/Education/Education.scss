@@ -54,10 +54,17 @@
                 line-height: 25px;
 
                 color: #464646;
+
+                span {
+                    text-transform: uppercase;
+                    font-weight: 800;
+                    font-size: 25px;
+                    color: #D34A2E;
+                }
             }
 
             .education__button {
-                padding-top: 40px;
+                padding-top: 25px;
 
                 button {
                     @include text-font;

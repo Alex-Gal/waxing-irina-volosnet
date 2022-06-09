@@ -16,16 +16,22 @@ const Education = () => {
                     <div className='education__text'>
                         <h2>Хочешь стать мастером?</h2>
                         <AnimationOnScroll animateIn="animate__fadeInRightBig" duration={0.5}>
-                            <p>Я обучу</p>
+                            <p>Стань лучшим мастером восковой депиляции</p>
                         </AnimationOnScroll>
                         <AnimationOnScroll animateIn="animate__fadeInRightBig" duration={0.5}>
-                            <p>Мое обучение включает</p>
+                            <p>Получи новую прибыльную профессию всего за <span>2 дня</span></p>
                         </AnimationOnScroll>
                         <AnimationOnScroll animateIn="animate__fadeInRightBig" duration={0.5}>
-                            <p>Обучаю. Являюсь технологом бренда Italwax</p>
+                            <p>Поделюсь всеми своими секретами и фишками</p>
                         </AnimationOnScroll>
                         <AnimationOnScroll animateIn="animate__fadeInRightBig" duration={0.5}>
-                            <p>+1000 депиляций, более 5 обучений</p>
+                            <p>Теоретическая и практическая часть</p>
+                        </AnimationOnScroll>
+                        <AnimationOnScroll animateIn="animate__fadeInRightBig" duration={0.5}>
+                            <p>Отработка <span>всех</span> зон на моделях</p>
+                        </AnimationOnScroll>
+                        <AnimationOnScroll animateIn="animate__fadeInRightBig" duration={0.5}>
+                            <p>Поддержка и мотивация с моей стороны</p>
                         </AnimationOnScroll>
                         <div className='education__button'>
                             <button>Подробнее про обучение...</button>
