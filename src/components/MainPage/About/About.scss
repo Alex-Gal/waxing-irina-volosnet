@@ -19,6 +19,7 @@
 .about-block {
     position: relative;
     background: #FEF3FF;
+    overflow: hidden;
 
     .about-block__title-block {
         display: flex;
@@ -45,10 +46,12 @@
         display: flex;
         flex-flow: row wrap;
         justify-content: space-between;
-        height: 691px;
+        height: 100%;
+        overflow: hidden;
 
         .about-block__text {
             width: 50%;
+            padding: 0 20px;
         }
 
         h2 {
@@ -71,20 +74,77 @@
             }
         }
 
+        .about-block__text_last {
+            padding-bottom: 100px;
+        }
+
         .about-block__image {
             position: absolute;
             right: 0px;
             width: 50%;
-
-            img {
-                position: absolute;
-                right: 0px;
-            }
+            height: 100%;
+            background: url('../../../images/about_photo.jpg') no-repeat right top;
+            background-size: contain;
         }
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 992px) {}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .about-block {
+        .about-block__title-block {
+            .about-block__title {
+                padding: 12px 0;
+                font-size: 20px;
+                padding-right: 8px;
+            }
+
+            img {
+                height: 35px;
+                width: 35px;
+            }
+        }
+
+
+        .about-block__block {
+            height: 100%;
+            max-height: 480px;
+            overflow: hidden;
+            padding-bottom: 0px;
+
+            .about-block__text {
+                width: 50%;
+                padding-bottom: 25px;
+                overflow: hidden;
+            }
+
+            h2 {
+                font-size: 45px;
+                line-height: 50px;
+                padding: 20px 0;
+            }
+
+            p {
+                font-size: 18px;
+                padding-bottom: 14px;
+                line-height: 23px;
+
+                span {
+                    font-size: 17px;
+                }
+            }
+
+            .about-block__text_last {
+                padding-bottom: 13px;
+            }
+
+            .about-block__image {
+                position: absolute;
+                right: 0px;
+                width: 50%;
+            }
+        }
+    }
+}
 
 @media screen and (min-width: 481px) and (max-width: 767px) {}
 

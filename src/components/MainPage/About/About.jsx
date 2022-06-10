@@ -1,6 +1,5 @@
 import React from 'react'
 import { AnimationOnScroll } from 'react-animation-on-scroll';
-import about from '../../../images/about_photo.jpg'
 import razor from '../../../icons/razor.png'
 
 import './About.scss'
@@ -29,12 +28,10 @@ export const About = () => {
                             <p>Обучаю. Являюсь технологом итальянского бренда <span>Italwax</span></p>
                         </AnimationOnScroll>
                         <AnimationOnScroll animateIn="animate__fadeInLeftBig" duration={0.5}>
-                            <p>1000+ депиляций, более 5 обучений</p>
+                            <p className='about-block__text_last'>1000+ депиляций, более 5 обучений</p>
                         </AnimationOnScroll>
                     </div>
-                    <div className='about-block__image'>
-                        <img src={about} alt="about-irina" />
-                    </div>
+                    <div className='about-block__image'></div>
                 </div>
             </div>
         </section>
