@@ -86,7 +86,52 @@
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 992px) {}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .education {
+        padding: 10px 0;
+
+        .education__image {
+            img {
+                width: 55%;
+                max-height: none;
+                // overflow: hidden;
+            }
+        }
+
+        .education__block {
+            .education__text {
+                h2 {
+                    font-size: 45px;
+                    line-height: 50px;
+                    letter-spacing: 0.02em;
+                    padding: 20px 0;
+                    // overflow: hidden;
+                }
+
+                p {
+                    font-size: 18px;
+                    padding-bottom: 14px;
+                    line-height: 23px;
+
+                    span {
+                        font-size: 17px;
+                    }
+                }
+
+                .education__button {
+                    padding-top: 14px;
+
+                    button {
+                        width: 270px;
+                        height: 50px;
+                        font-size: 16px;
+                        line-height: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
 
 @media screen and (min-width: 481px) and (max-width: 767px) {}
 

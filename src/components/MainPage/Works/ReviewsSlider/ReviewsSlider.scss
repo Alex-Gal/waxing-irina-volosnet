@@ -109,7 +109,41 @@
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 992px) {}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .reviews-slider {
+        height: 180px;
+        margin: 0 20px;
+
+        .carousel {
+            p {
+                padding: 35px 50px;
+                font-size: 18px;
+                line-height: 25px;
+            }
+
+            .control-arrow {
+                height: 40px;
+                width: 40px;
+                margin-top: 40px;
+
+                &:hover {
+                    height: 50px;
+                    width: 50px;
+                    margin-top: 35px;
+                }
+            }
+
+            .reviews-slider__text_two {
+                padding: 35px 50px;
+            }
+
+            .reviews-slider__text_five {
+                padding: 10px 50px;
+            }
+
+        }
+    }
+}
 
 @media screen and (min-width: 481px) and (max-width: 767px) {}
 

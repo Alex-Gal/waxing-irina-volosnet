@@ -32,7 +32,17 @@
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 992px) {}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .movie {
+        padding: 20px 0 40px;
+
+        .movie__title {
+            font-size: 45px;
+            letter-spacing: 0.02em;
+            padding-bottom: 10px;
+        }
+    }
+}
 
 @media screen and (min-width: 481px) and (max-width: 767px) {}
 
