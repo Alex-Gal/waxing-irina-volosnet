@@ -20,20 +20,27 @@
     background: #FEF3FF;
 
     .education__image {
+        border: 1px solid red;
         position: absolute;
         top: 0;
         left: 0;
+        max-width: 60%;
+        // overflow: hidden;
 
         img {
+            border: 3px solid pink;
             width: 100%;
             max-height: 650px;
         }
     }
 
     .education__block {
+        border: 1px solid green;
         position: relative;
 
         .education__text {
+            // margin-right: 20px;
+            border: 1px solid yellow;
             max-width: 40%;
             position: absolute;
             top: 0;
@@ -91,8 +98,10 @@
         padding: 10px 0;
 
         .education__image {
+            left: -90px;
+
             img {
-                width: 55%;
+                // width: 60%;
                 max-height: none;
                 // overflow: hidden;
             }
@@ -100,6 +109,8 @@
 
         .education__block {
             .education__text {
+                max-width: 50%;
+
                 h2 {
                     font-size: 45px;
                     line-height: 50px;
